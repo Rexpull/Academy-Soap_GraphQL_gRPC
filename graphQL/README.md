@@ -115,20 +115,6 @@ npm run dev
 **Conceitos:** Input types, mutations com efeitos colaterais, erros com `GraphQLError`, imutabilidade do store
 
 ---
-
-### 🔴 DESAFIO 6 — Schema Design (Discussão/Revisão)
-**Arquivo:** `backend/src/schema/typeDefs.ts`
-
-- [ ] Entender por que usamos `PostsConnection` ao invés de `[Post!]!` para a query `posts`
-- [ ] Entender a diferença entre `String` e `String!` no schema
-- [ ] Entender por que `user(id: ID!): User` retorna `User` (nullable) ao invés de `User!`
-- [ ] Discutir: quando usar `input types` vs arguments diretos?
-- [ ] Discutir: qual a diferença entre `enum` e `String` para o campo `role`?
-
-**Conceitos:** Nullability, tipos de conexão, design de schema, enums vs strings
-
----
-
 ## 🛠 Tecnologias
 
 | Camada | Tecnologia |
